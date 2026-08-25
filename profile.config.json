@@ -1,0 +1,46 @@
+{
+  "login": "",
+
+  "tagline": "BUILDING THINGS THAT SHIP",
+  "playerClass": "SOFTWARE ENGINEER",
+  "theme": "amber",
+
+  "cards": ["hero", "player", "stack", "select", "grid", "footer"],
+
+  "featured": {
+    "count": 6,
+    "pin": [],
+    "exclude": []
+  },
+
+  "languages": {
+    "count": 8,
+    "exclude": []
+  },
+
+  "links": {
+    "website": true,
+    "x": true,
+    "followers": true,
+    "stars": true
+  },
+
+  "about": {
+    "heading": "About",
+    "body": [
+      "Replace this with a sentence or two about what you build. {{repoCount}} public repositories, mostly {{topLanguages}}.",
+      "Link a project the way you would in any Markdown file, or use {{repo:some-repo-name}} so the URL stays correct if you ever rename yourself. Every available token is listed in SETUP.md.",
+      "Delete this whole block if you would rather let the cards speak for themselves."
+    ]
+  },
+
+  "currently": {
+    "heading": "Currently",
+    "body": [
+      "What you are working on right now, and how to reach you at {{site}}."
+    ]
+  },
+
+  "showTemplateCredit": true,
+  "templateRepo": "lennystepn-hue/attract-mode"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "attract-mode",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A GitHub profile that renders itself nightly as an animated arcade cabinet, drawn from a hand-built pixel font with no dependencies.",
+  "license": "MIT",
+  "author": "Lenny Enderle (https://lenny.services)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lennystepn-hue/attract-mode.git"
+  },
+  "keywords": [
+    "github-profile",
+    "github-profile-readme",
+    "profile-readme",
+    "readme-template",
+    "svg",
+    "pixel-art",
+    "arcade",
+    "github-actions"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/generate.mjs",
+    "build:cached": "node scripts/generate.mjs --cached"
+  }
+}
